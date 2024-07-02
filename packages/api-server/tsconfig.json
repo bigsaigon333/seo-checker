@@ -1,0 +1,9 @@
+{
+  "extends": ["@tsconfig/recommended/tsconfig", "@tsconfig/node22/tsconfig"],
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  }
+}
